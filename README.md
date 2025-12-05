@@ -9,12 +9,12 @@ Este é um projeto de prova de conceito que automatiza o processamento de planil
 **Autores:**
 - Luan Daniel (desenvolvedor principal, design de workflow, implementação da GUI)
 
----
+
 
 ## Introdução
 Este projeto foi motivado pela necessidade de uma solução simples e local para automatizar a geração de documentos a partir de dados de planilhas, sem depender de serviços em nuvem. O projeto também visa servir como base para desenvolvimento futuro, incluindo workflows mais complexos e experiência de usuário aprimorada.
 
----
+
 
 ## Requisitos do Sistema
 Veja [`docs/dependencies.md`](docs/dependencies_pt.md) para detalhes completos e instruções de instalação.
@@ -31,7 +31,7 @@ Veja [`docs/dependencies.md`](docs/dependencies_pt.md) para detalhes completos e
 
 Outras dependências são instaladas automaticamente durante a primeira execução. Acesso à internet é necessário para a configuração.
 
----
+
 
 ## Guia de Instalação e Uso
 
@@ -59,7 +59,7 @@ Outras dependências são instaladas automaticamente durante a primeira execuç�
 4. Use a GUI para abrir a interface web do n8n para gerenciamento de workflows.
 5. Os dados do n8n podem ser exportados/importados via arquivos zip para facilitar a configuração em novas máquinas.
 
----
+
 
 ## Visão Geral da Funcionalidade
 
@@ -73,7 +73,7 @@ Outras dependências são instaladas automaticamente durante a primeira execuç�
   - Salva resultado em `n8n-files/documents/`
   - Envia HTTP POST para webhook da GUI com resultado ou código de erro.
 ![](docs/img/workflow.png)
----
+
 
 ## Visão Geral da Implementação
 
@@ -96,7 +96,7 @@ Outras dependências são instaladas automaticamente durante a primeira execuç�
 6. Salva .docx em `n8n-files/documents/`
 7. Envia resultado para webhook da GUI
 
----
+
 
 ## Limitações Conhecidas e Trabalho Futuro
 Devido a restrições de tempo, alguns recursos foram deixados incompletos:
@@ -106,7 +106,7 @@ Devido a restrições de tempo, alguns recursos foram deixados incompletos:
 - Tratamento de erros precisa de melhorias.
 - Template docx está hardcoded; versões futuras devem permitir seleção pelo usuário.
 
----
+
 
 ## Licença
 Este projeto é distribuído para fins educacionais.

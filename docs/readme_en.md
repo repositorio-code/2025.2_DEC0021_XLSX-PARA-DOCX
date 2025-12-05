@@ -9,12 +9,12 @@ This is a proof-of-concept project that automates the processing of XLSX spreads
 **Authors:**
 - Luan Daniel (lead developer, workflow design, GUI implementation)
 
----
+
 
 ## Introduction
 This project was motivated by the need for a simple, local solution to automate document generation from spreadsheet data, without relying on cloud services. The project also aims to serve as a basis for further development, including more complex workflows and improved user experience.
 
----
+
 
 ## System Requirements
 See [`dependencies_en.md`](dependencies_en.md) for full details and installation instructions.
@@ -31,7 +31,7 @@ See [`dependencies_en.md`](dependencies_en.md) for full details and installation
 
 Other dependencies are installed automatically during first execution. Internet access is required for setup.
 
----
+
 
 ## Installation & Usage Guide
 
@@ -59,7 +59,7 @@ Other dependencies are installed automatically during first execution. Internet 
 4. Use the GUI to open the n8n web interface for workflow management.
 5. N8N data can be exported/imported via zip files for easy setup on new machines.
 
----
+
 
 ## Functionality Overview
 
@@ -73,7 +73,7 @@ Other dependencies are installed automatically during first execution. Internet 
   - Saves result to `n8n-files/documents/`
   - Sends HTTP POST to GUI webhook with result or error code.
 ![](docs/img/workflow.png)
----
+
 
 ## Implementation Overview
 
@@ -96,7 +96,7 @@ Other dependencies are installed automatically during first execution. Internet 
 6. Saves .docx to `n8n-files/documents/`
 7. Sends result to GUI webhook
 
----
+
 
 ## Known Limitations & Future Work
 Due to time constraints, some features were left incomplete:
@@ -106,7 +106,7 @@ Due to time constraints, some features were left incomplete:
 - Error handling needs improvement.
 - Docx template is hardcoded; future versions should allow user selection.
 
----
+
 
 ## License
 This project is distributed for educational purposes.

@@ -3,7 +3,7 @@
 Este guia explica como instalar todas as dependências necessárias no **Linux** e **Windows (WSL2)**.  
 Uma vez dentro de um ambiente Unix-like (Linux ou WSL2), as etapas de instalação são unificadas.
 
----
+
 
 ## Requisitos do Sistema
 - **Linux**: Qualquer distribuição recente (Ubuntu, Debian, Fedora, Arch, etc.)
@@ -19,7 +19,7 @@ Uma vez dentro de um ambiente Unix-like (Linux ou WSL2), as etapas de instalaç�
   - jq
 - Outras dependências são instaladas automaticamente durante a primeira execução (requer acesso à internet).
 
----
+
 
 ## Configuração no Windows (WSL2)
 
@@ -44,7 +44,7 @@ wsl
 
 Agora você está dentro de um shell Linux. Continue com as **etapas de configuração do Linux** abaixo.
 
----
+
 
 ## Configuração no Linux e WSL2
 

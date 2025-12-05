@@ -14,7 +14,7 @@
 This guide explains how to install all required dependencies on **Linux**, and **Windows (WSL2)**.  
 Once inside a Unix-like environment (Linux or WSL2), the installation steps are unified.
 
----
+
 
 ## System Requirements
 - **Linux**: Any recent distribution (Ubuntu, Debian, Fedora, Arch, etc.)
@@ -30,7 +30,7 @@ Once inside a Unix-like environment (Linux or WSL2), the installation steps are 
   - jq
 - Other dependencies are installed automatically during first execution (requires internet access).
 
----
+
 
 ## Windows Setup (WSL2)
 
@@ -55,7 +55,7 @@ wsl
 
 You are now inside a Linux shell. Continue with the **Linux setup steps** below.
 
----
+
 
 ## Linux & WSL2 Setup
 
