@@ -49,7 +49,7 @@ For dependency installation details, see [`docs/dependencies_en.md`](dependencie
 6. **Start the n8n container:**
    - Use the corresponding button in the GUI.
 7. **Test the workflow:**
-   - Upload a sample XLSX file via the GUI and retrieve the generated document.
+   - Submit a sample XLSX file (such as [this one](https://docs.google.com/spreadsheets/d/1ozqeJ4xOjd_rN_tQ1jfRHwIGtqdUUawjQhnJll25PGw/edit?usp=sharing)) via the GUI and retrieve the generated document in `n8n-files/documents/`.
 
 ## How to Use
 ### Daily Usage
