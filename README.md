@@ -1,4 +1,4 @@
-# Automação Local de XLSX para Documentos com n8n conteinerizado e GUI Python
+# XLSX para DOCX com n8n e DocxTemplater
 
 English Version: [docs/readme_en.md](docs/readme_en.md)
 
